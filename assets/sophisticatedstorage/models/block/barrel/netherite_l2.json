@@ -1,0 +1,103 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "sophisticatedstorage:block/oak_barrel_bottom",
+		"1": "sophisticatedstorage:block/oak_barrel_side",
+		"3": "sophisticatedstorage:block/netherite_barrel_top",
+		"4": "sophisticatedstorage:block/limited_oak_barrel_2_top",
+		"particle": "sophisticatedstorage:block/oak_barrel_bottom"
+	},
+	"elements": [
+		{
+			"name": "Trim",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#3"}
+			}
+		},
+		{
+			"name": "BarrelWallEast",
+			"from": [15, 0.1, 0.1],
+			"to": [15.9, 15.9, 15.9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [15, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "BarrelWallWest",
+			"from": [0.1, 0.1, 0.1],
+			"to": [1, 15.9, 15.9],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 1, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "BarrelWallNorth",
+			"from": [1, 0.1, 0.1],
+			"to": [15, 1, 15.9],
+			"faces": {
+				"north": {"uv": [1, 15, 15, 16], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 1, 16], "rotation": 90, "texture": "#missing"},
+				"south": {"uv": [1, 15, 15, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 16], "rotation": 270, "texture": "#missing"},
+				"up": {"uv": [1, 0, 15, 16], "texture": "#1"},
+				"down": {"uv": [1, 0, 15, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "BarrelWallSouth",
+			"from": [1, 15, 0.1],
+			"to": [15, 15.9, 15.9],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 1, 16], "rotation": 90, "texture": "#missing"},
+				"south": {"uv": [1, 0, 15, 1], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 16], "rotation": 270, "texture": "#missing"},
+				"up": {"uv": [1, 0, 15, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 14, 16], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "BarrelInside",
+			"from": [1, 1, 1],
+			"to": [15, 15, 15.9],
+			"faces": {
+				"north": {"uv": [15, 15, 1, 1], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 14, 15], "rotation": 90, "texture": "#missing"},
+				"south": {"uv": [1, 1, 15, 15], "texture": "#0"},
+				"west": {"uv": [0, 0, 14, 15], "rotation": 270, "texture": "#missing"},
+				"up": {"uv": [0, 0, 14, 15], "texture": "#missing"},
+				"down": {"uv": [0, 0, 14, 15], "rotation": 180, "texture": "#missing"}
+			}
+		},
+		{
+			"name": "L2",
+			"from": [1, 7, 0.1],
+			"to": [15, 9, 1],
+			"faces": {
+				"north": {"uv": [1, 9, 15, 7], "texture": "#4"},
+				"east": {"uv": [0, 0, 1, 2], "texture": "#missing"},
+				"south": {"uv": [0, 0, 14, 2], "texture": "#missing"},
+				"west": {"uv": [0, 0, 1, 2], "texture": "#missing"},
+				"up": {"uv": [1, 0, 15, 1], "texture": "#1"},
+				"down": {"uv": [1, 0, 15, 1], "texture": "#1"}
+			}
+		}
+	]
+}

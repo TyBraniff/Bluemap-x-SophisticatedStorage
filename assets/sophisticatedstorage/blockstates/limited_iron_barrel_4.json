@@ -2,56 +2,56 @@
   "variants": {
     "vertical_facing=no,facing=east": {
       "y": 90,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "vertical_facing=no,facing=north": {
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "vertical_facing=no,facing=south": {
       "y": 180,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "vertical_facing=no,facing=west": {
       "y": 270,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "vertical_facing=up,facing=east": {
       "y": 90,
       "x": 270,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "vertical_facing=up,facing=north": {
       "x": 270,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "vertical_facing=up,facing=south": {
       "y": 180,
       "x": 270,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "vertical_facing=up,facing=west": {
       "y": 270,
       "x": 270,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "facing=east,vertical_facing=down": {
       "y": 90,
       "x": 90,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "facing=north,vertical_facing=down": {
       "x": 90,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "facing=south,vertical_facing=down": {
       "y": 180,
       "x": 90,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     },
     "facing=west,vertical_facing=down": {
       "y": 270,
       "x": 90,
-      "model": "sophisticatedstorage:block/barrel/copper_l1"
+      "model": "sophisticatedstorage:block/barrel/iron_l4"
     }
   }
 }
