@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=east": {
+      "y": 90,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    },
+    "facing=north": {
+      "y": 0,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    },
+    "facing=west": {
+      "y": 270,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    },
+    "facing=east,vertical_facing=up": {
+      "y": 90,
+      "x": 90,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    },
+    "facing=north,vertical_facing=up": {
+      "y": 0,
+      "x": 90,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    },
+    "facing=south,vertical_facing=up": {
+      "y": 180,
+      "x": 90,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    },
+    "facing=west,vertical_facing=up": {
+      "y": 270,
+      "x": 90,
+      "model": "sophisticatedstorage:block/barrel/iron"
+    }
+  }
+}
